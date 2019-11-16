@@ -1,1 +1,4 @@
 # nav-bar-Project-2
+
+#Project Description:
+Working on build a new coding portfolio to help me land a job in coding or for the most part be happy to put one a resume when applying for a company. The nav bar is currently in working progress. Mainly, becuase i'm trying to actually design things so in this process im putting up and taking down things until i find the design. I'm not good at designing so this is giving me a chance to plug in some skill to make things in my mind appear on the screen and where i want it layed out. before i submit my next update on github regarding the project i hope to have made a responsive nav bar that you can play around with when you change the size orientation of the browser. feel free to copy the code as it will be used for the projects and documentation section of the web page. Happy Coding!!!!!!
