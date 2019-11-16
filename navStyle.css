@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+li {
+    font-size: 18px;
+    text-align: center;
+    width: 10%;
+}
+li:hover {
+    border: 2px solid #5BF0FF;
+    box-shadow: 0 2px 6px 0 #93F5FF, 0 4px 8px 0 #C3FAFF;
+}
+li:active {
+    border: 2px solid white;
+    background-color:#6D6D6D;
+}
+a {
+    cursor: crosshair;
+    color: #00E8FF;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+   
+    text-decoration: none;
+}
+img {
+    height: 30px;
+    width: 30px;
+}
+
+
+/* --------------------------------------------------------------------------------------- */
+#nav-container {
+    cursor: crosshair;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Color_icon_gray_v2.svg/1200px-Color_icon_gray_v2.svg.png");
+    box-shadow: 0 2px 8px 0 #B0B0B0, 0 4px 8px 0 #F5F5F5;
+    /* border: 2px solid black; */
+    height: 50px;
+    width: 100%;
+    position: relative
+}
+/* this is the ul */
+#list-container {
+    /* border: 2px solid black; */
+    color: white;
+    display: flex;
+    height: 30%;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
+    top: 22%;
+    width: 100%;
+    
+}
+/* these are the list items */
+#menu-item1 {
+    position: absolute;
+    left: 8%;
+}
+
+
+
+#menu-item2 {
+    position: absolute;
+    left: 19%;
+}
+
+
+
+#menu-item3 {
+    position: absolute;
+    left: 30%;
+}
+
+#menu-item4 {
+    position: absolute;
+    left: 41%;
+}
+
+#menu-item5 {
+    position: absolute;
+    left: 52%;
+}
+
+#menu-item6 {
+    position: absolute;
+    left: 63%;
+}
+
+/* Github icon css settings  */
+#github-icon {
+    color: #00E8FF;
+    font-size: 23px;
+    position: absolute;
+    top: 19%;
+    left: 80%;
+    text-shadow: 2px 2px 5px #5BF0FF;
+}
+#github-icon:hover {
+    cursor: crosshair;
+    color: #00E8FF;
+    font-size: 30px;
+    position: absolute;
+    top: 8%;
+    left: 80%;
+}
+#github-icon:active {
+    color: white;
+}
+/* End of Github icon css settings */
+
+/* LinkedIn icon css settings */
+#linkedin-icon {
+    color: #00E8FF;
+    font-size: 23px;
+    position: absolute;
+    top: 19%;
+    left: 82%;
+    text-shadow: 2px 2px 5px #5BF0FF;
+}
+#linkedin-icon:hover {
+    cursor: crosshair;
+    color: #00E8FF; 
+    font-size: 30px;
+    position: absolute;
+    top: 8%;
+    left: 82%;
+    
+}
+#linkedin-icon:active {
+    color: white;
+}
+
+
+/* End of Linkedin css settings */
+
+#logoName {
+    /* border: 2px solid black;  */
+    color: #00E8FF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    top: -30%;
+    left: 86%;
+    text-shadow: 2px 2px 5px #5BF0FF;
+}
