@@ -149,3 +149,15 @@ img {
     left: 86%;
     text-shadow: 2px 2px 5px #5BF0FF;
 }
+ #logoName:hover {
+    color: #00E8FF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: -50%;
+    left: 86%;
+    text-shadow: 2px 2px 5px #5BF0FF;
+}
+#logoName:active {
+    color:white;
+} 
